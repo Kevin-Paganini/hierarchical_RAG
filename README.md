@@ -4,7 +4,7 @@ This presentation is an overview of the code I have written with my senior desig
 I cannot share the code of the project, however I have included a video to showcase the RAG system working.   
 The project has similarities to how the DocumentSummaryIndex from LlamaIndex works, with some key differences.
 
-For one we introduce a self healing component that can improve summaries and therefore hit rate of the retrieval process.   
+First, we introduce a self healing component that can improve summaries and therefore hit rate of the retrieval process.   
 Second, we offer different retrievers that make use of both the summary and document index to retrieve results.   
 
 There are slightly different approaches out there like RAPTOR, these are approaches we are looking into for further development.
